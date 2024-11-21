@@ -16,9 +16,9 @@ public class Dog extends Animal{
 
     public void showMood(boolean happy) {
         if (happy) {
-            System.out.println(getName() + "logrer");
+            System.out.println(getName() + " logrer");
         } else {
-            System.out.println(getName() + "knurrer");
+            System.out.println(getName() + " knurrer");
         }
     }
 }
