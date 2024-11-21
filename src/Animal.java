@@ -9,6 +9,11 @@ public abstract class Animal {
         return name;
     }
 
-    abstract void makeSound();
+    public abstract void makeSound();
+
+    public abstract boolean eat(String foodType);
 }
+
+
+
 
